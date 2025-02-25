@@ -233,6 +233,15 @@
             background: #2980b9;
             transform: translateY(-2px);
         }
+
+        .visitor-count {
+            text-align: center;
+            padding: 1rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            margin-top: 1rem;
+            color: #ffffff;
+        }
     </style>
 </head>
 <body>
@@ -241,6 +250,9 @@
         <p>Code Ninja • Professional Bug Creator • Stack Overflow's Best Customer</p>
         <div class="social-links">
             <a href="https://github.com/kikemw">GitHub</a>
+        </div>
+        <div class="visitor-count">
+            <p>Visitors: <span id="visitorCount">0</span></p>
         </div>
     </header>
 
@@ -309,5 +321,15 @@
         <p>&copy; 2024 Personal Homepage. All rights reserved.</p>
         <p>Built with ❤️ using modern web technologies</p>
     </footer>
+
+    <script>
+        // 从localStorage获取访问计数
+        let count = localStorage.getItem('visitorCount') || 0;
+        count = parseInt(count) + 1;
+        
+        // 更新访问计数
+        localStorage.setItem('visitorCount', count);
+        document.getElementById('visitorCount').textContent = count;
+    </script>
 </body>
 </html>
