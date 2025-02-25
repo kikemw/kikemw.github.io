@@ -13,81 +13,225 @@
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', sans-serif;
-            line-height: 1.47059;
-            color: #1d1d1f;
-            background-color: #f5f5f7;
+            line-height: 1.6;
+            color: #2c3e50;
+            background-color: #ecf0f1;
             -webkit-font-smoothing: antialiased;
         }
 
         header {
-            background: linear-gradient(135deg, #00A0E9, #0066CC);
+            background: linear-gradient(135deg, #3498db, #2980b9);
             color: #ffffff;
             text-align: center;
-            padding: 4rem 2rem;
+            padding: 5rem 2rem;
+            margin-bottom: 3rem;
         }
 
         .container {
-            max-width: 980px;
+            max-width: 1200px;
             margin: 0 auto;
-            padding: 2rem;
+            padding: 0 2rem;
         }
 
         .section {
             background: #ffffff;
-            padding: 2rem;
+            padding: 3rem;
             margin: 2rem 0;
-            border-radius: 20px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
         }
 
         h1 {
-            font-size: 48px;
-            font-weight: 600;
-            letter-spacing: -0.003em;
-            margin-bottom: 1rem;
+            font-size: 3.5rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin-bottom: 1.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         h2 {
-            font-size: 28px;
+            font-size: 2rem;
             font-weight: 600;
-            color: #0066CC;
-            margin-bottom: 1rem;
+            color: #2980b9;
+            margin-bottom: 1.5rem;
+            position: relative;
+            padding-bottom: 0.5rem;
+        }
+
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50px;
+            height: 3px;
+            background: #3498db;
         }
 
         .projects {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            margin-top: 2rem;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2.5rem;
+            margin-top: 3rem;
         }
 
         .project-card {
             background: #ffffff;
-            border-radius: 18px;
+            border-radius: 12px;
             padding: 2rem;
             transition: all 0.3s ease;
-            border: 1px solid #e5e5e5;
+            border: 1px solid #e0e0e0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .project-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: #3498db;
+            transition: all 0.3s ease;
         }
 
         .project-card:hover {
-            transform: scale(1.02);
-            box-shadow: 0 4px 16px rgba(0, 102, 204, 0.15);
-            border-color: #0066CC;
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-card:hover::before {
+            width: 100%;
+            opacity: 0.1;
         }
 
         .project-card h3 {
-            color: #0066CC;
-            margin-bottom: 0.5rem;
+            color: #2980b9;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .project-card p {
+            color: #34495e;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+        }
+
+        .tech-badge {
+            background: #f7f9fc;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: #2980b9;
+            border: 1px solid #e0e0e0;
+            transition: all 0.3s ease;
+        }
+
+        .tech-badge:hover {
+            background: #3498db;
+            color: #ffffff;
+            border-color: #3498db;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 2.5rem;
+            margin-top: 2rem;
+        }
+
+        .social-links a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            padding: 0.5rem 1.5rem;
+            border-radius: 25px;
+            background: rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .social-links a:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .skill-badge {
+            background: #f7f9fc;
+            color: #2980b9;
+            padding: 0.75rem 1.5rem;
+            border-radius: 25px;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            border: 1px solid #e0e0e0;
+        }
+
+        .skill-badge:hover {
+            background: #3498db;
+            color: #ffffff;
+            border-color: #3498db;
         }
 
         footer {
             text-align: center;
-            padding: 2rem;
-            background: #ffffff;
-            color: #86868b;
-            font-size: 12px;
-            margin-top: 2rem;
-            border-top: 1px solid #e5e5e5;
+            padding: 3rem 2rem;
+            background: #2c3e50;
+            color: #ecf0f1;
+            margin-top: 4rem;
+        }
+
+        footer p {
+            margin: 0.5rem 0;
+            font-size: 0.9rem;
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 0.8rem;
+            margin-bottom: 1rem;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 1rem;
+        }
+
+        .contact-form textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+
+        .contact-form button {
+            background: #3498db;
+            color: #ffffff;
+            padding: 0.8rem 2rem;
+            border: none;
+            border-radius: 25px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
         }
     </style>
 </head>
@@ -95,35 +239,77 @@
     <header>
         <h1>Welcome to My Personal Homepage</h1>
         <p>Web Developer • Creative Thinker • Lifelong Learner</p>
+        <div class="social-links">
+            <a href="https://github.com/yourusername">GitHub</a>
+            <a href="https://linkedin.com/in/yourusername">LinkedIn</a>
+            <a href="mailto:your.email@example.com">Email</a>
+        </div>
     </header>
 
     <div class="container">
         <section class="section">
             <h2>About Me</h2>
-            <p>Hello! I am a programmer passionate about web development. I love creative work and am dedicated to building beautiful and practical web applications.</p>
+            <p>Hello! I am a passionate full-stack developer with 5+ years of experience in creating modern web applications. I specialize in JavaScript/TypeScript, React, Node.js, and cloud technologies. My approach combines technical expertise with creative problem-solving to deliver exceptional user experiences. MY STEAM : https://steamcommunity.com/profiles/76561199546455542/friends/</p>
+            <div class="skills">
+                <span class="skill-badge">JavaScript</span>
+                <span class="skill-badge">TypeScript</span>
+                <span class="skill-badge">React</span>
+                <span class="skill-badge">Node.js</span>
+                <span class="skill-badge">AWS</span>
+                <span class="skill-badge">Docker</span>
+            </div>
         </section>
 
         <section class="section">
             <h2>My Projects</h2>
             <div class="projects">
                 <div class="project-card">
-                    <h3>Project One</h3>
-                    <p>A web application developed using modern technology stack...</p>
+                    <h3>E-Commerce Platform</h3>
+                    <p>A full-featured e-commerce platform built with React and Node.js. Features include user authentication, product management, shopping cart, and payment integration.</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">React</span>
+                        <span class="tech-badge">Node.js</span>
+                        <span class="tech-badge">MongoDB</span>
+                        <span class="tech-badge">Stripe</span>
+                    </div>
                 </div>
                 <div class="project-card">
-                    <h3>Project Two</h3>
-                    <p>An innovative solution aimed at solving practical problems...</p>
+                    <h3>Task Management App</h3>
+                    <p>A collaborative task management application with real-time updates, team collaboration features, and detailed analytics dashboard.</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">Vue.js</span>
+                        <span class="tech-badge">Firebase</span>
+                        <span class="tech-badge">Chart.js</span>
+                    </div>
                 </div>
                 <div class="project-card">
-                    <h3>Project Three</h3>
-                    <p>An exploratory project combining the latest technologies...</p>
+                    <h3>AI-Powered Chat Bot</h3>
+                    <p>An intelligent chatbot using natural language processing to provide customer support and answer frequently asked questions.</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">TensorFlow</span>
+                        <span class="tech-badge">FastAPI</span>
+                    </div>
                 </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Contact Me（测试中）</h2>
+            <div class="contact-form">
+                <form action="#" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
             </div>
         </section>
     </div>
 
     <footer>
         <p>&copy; 2024 Personal Homepage. All rights reserved.</p>
+        <p>Built with ❤️ using modern web technologies</p>
     </footer>
 </body>
 </html>
