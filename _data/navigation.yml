@@ -9,25 +9,25 @@
 
 main:
   - title: "Publications"
-    url: https://kikemw.github.io/
+    url: "https://kikemw.github.io/"
 
   - title: "Talks"
-    url: https://kikemw.github.io/ 
+    url: "https://kikemw.github.io/"
 
   - title: "Teaching"
-    url: https://kikemw.github.io/   
+    url: "https://kikemw.github.io/"
     
   - title: "Portfolio"
-    url: https://kikemw.github.io/
+    url: "https://kikemw.github.io/"
         
   - title: "Blog Posts"
-    url: https://kikemw.github.io/
+    url: "https://kikemw.github.io/"
     
   - title: "CV"
-    url: https://kikemw.github.io/
+    url: "https://kikemw.github.io/"
     
   # - title: "CV"
-  #   url: /cv-json/
+  #   url: "/cv-json/"
     
   - title: "Guide"
-    url: https://kikemw.github.io/
+    url: "https://kikemw.github.io/"
