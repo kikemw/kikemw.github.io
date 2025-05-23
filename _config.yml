@@ -25,9 +25,9 @@ author:
   avatar           : "profile.png"
   name             : "Chenyi Xu"
   pronouns         : # example: "she/her"  
-  bio              : "I am an undergraduate student at Hangzhou Dianzi University and a visiting student at Westlake University, advised by Prof. Liqi Yan and Prof. Chi Zhang."
+  bio              : "I am an undergraduate student at Hangzhou Dianzi University, advised by Prof. Liqi Yan and Prof. Chi Zhang."
   location         : "Hangzhou, China"
-  employer         : "Hangzhou Dianzi University / Westlake University"
+  employer         : "Hangzhou Dianzi University"
   uri              : # URL
   email            : "23050433@hdu.edu.cn" 
 
