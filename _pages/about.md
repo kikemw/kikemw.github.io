@@ -35,6 +35,12 @@ I am currently a sophomore majoring in Computer Science and Technology at Hangzh
 * **July**: Joined Drone Interest Group at Institute of Space Information, HDU
 * **June**: Second Prize in University Mathematical Modeling Competition
 * **April**: Received Third-Class Scholarship from HDU
+ 
+ 
+ 
+ 
+
+
 
 <div style="display: flex; justify-content: space-between; margin: 20px 0;">
     <img src="/images/hdu.png" alt="Image 1" style="width: 48%;">
