@@ -22,7 +22,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "https://cn.bing.com/images/search?view=detailV2&ccid=rDNb5wwu&id=44E8998BE2A39555F9E42BE55C9B23B7CEAAFB76&thid=OIP.rDNb5wwuMqh9hcjEeZxtMAHaHa&mediaurl=https%3a%2f%2frs-channel.huanqiucdn.cn%2fimageDir%2f5f352fdaeaf6843c344826886bf6af90.jpg&exph=700&expw=700&q=%e6%98%8e%e6%97%a5%e9%a6%99&simid=608021495950821015&FORM=IRPRST&ck=450542E6FBA510E59328B90D0EB50C9A&selectedIndex=3&itb=0"
+  avatar           : "https://th.bing.com/th/id/OIP.eyBkOpwqpCWE3BbDLmEcQQHaHL?rs=1&pid=ImgDetMain"
   name             : "Chenyi Xu"
   pronouns         : # example: "she/her"  
   bio              : "Interested in computer vision, machine learning, and deep learning. "
