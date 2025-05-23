@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a sophomore majoring in Computer Science and Technology at Hangzhou Dianzi University. In the summer of 2025, I will join the AGI Lab at Westlake University as a visiting student. I have been honored with the first-class scholarship from my university and have also served as the class monitor. I am advised by Prof. Liqi Yan (Associate Professor) and Prof. Chi Zhang (Assistant Professor).
+I am currently a sophomore majoring in Computer Science and Technology at Hangzhou Dianzi University. In the summer of 2025, I will join the AGI Lab at Westlake University as a visiting student, where I will be advised by Prof. Chi Zhang. I am also under the guidance of Prof. Liqi Yan at Hangzhou Dianzi University.
 
 ## 🎯 Hobbies
 
