@@ -34,14 +34,14 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=-T7CoFAAAAAJ&hl=en"
+  googlescholar    : "citations?user=-T7CoFAAAAAJ&hl=en"
   impactstory      : 
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "https://github.com/kikemw"
+  github           : "kikemw"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -59,10 +59,10 @@ author:
   medium           : # URL
   pinterest        : # Username
   soundcloud       : # Username
-  steam            : "https://steamcommunity.com/profiles/76561199546455542/"
+  steam            : "profiles/76561199546455542/"
   telegram         : # URL
   tumblr           : # Username
-  twitter          : "https://x.com/ChenyiPosy"
+  twitter          : "ChenyiPosy"
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
