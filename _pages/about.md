@@ -14,6 +14,8 @@ I am currently a sophomore majoring in Computer Science and Technology at Hangzh
 * 🏃‍♂️ **Sports**: Passionate about hiking and running for physical and mental well-being
 * 🎤 **Music**: Enjoy singing and listening to gentle music for relaxation
 * ✈️ **Travel**: Love exploring new places and experiencing different cultures
+* 🐾 **Animals**: I really love small animals—if you have any adorable pets, please let me play with them!
+
 
 ## 📅 News & Achievements
 
